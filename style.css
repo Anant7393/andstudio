@@ -51,6 +51,48 @@ grid-template-columns: 65% 33%;
     font-size:24px;
     line-height:.6cm;
 }
+.animation{
+    display: flex;
+}
+.animation p span{
+    font-size: 6rem;
+    color:black;
+    font-weight: 500;
+    display: inline-block;
+    padding: 3rem 14rem 10rem 4rem;
+
+    
+    display: none;
+}
+
+.animation p span.text-in{
+	display: block;
+	animation: textIn .5s ease;
+}
+.animation p span.text-out{
+	animation: textOut .5s ease;
+}
+@keyframes textIn{
+	0%{
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+@keyframes textOut{
+	0%{
+		transform: translateY(0%);
+	}
+	100%{
+		transform: translateY(-100%);
+
+	}
+}
+.right-animation p{
+    font-weight:600;
+    font-size:  12rem;
+}
 .content{
     display:grid;
     grid-template-columns: 50% 50%;
@@ -58,13 +100,15 @@ grid-template-columns: 65% 33%;
 .content .img img{
     height:550px;
     width:550px;
-    margin: 1.4rem 1rem 1rem 2rem;
+    margin: 1.4rem .8rem 1rem 2rem;
 }
 .content .para{
     font-size:26px;
     margin: 19.4rem 0 1rem 3.4rem;
     line-height: 1cm;
-    padding-left: 8px;
+    padding-left: 6px;
+    padding-right: 2.4px;
+    margin-right: 3.6rem;
 }
 .project{
     background-color:black;
