@@ -130,7 +130,7 @@ grid-template-columns: 65% 33%;
     color: darkblue;
     /* margin: 2rem 1rem 1rem 4rem; */
     padding:2rem;
-  
+margin-left: 2.4rem;  
 }
 .project .upper .left:hover{
     animation-name: example;
@@ -156,6 +156,7 @@ font-size:56px;}
     width: 560px;
     background-color: yellow;
     color: darkblue;
+    margin-left: 1rem;
     /* margin: 2rem 3rem 1rem 4rem; */
   
 }
