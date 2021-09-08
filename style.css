@@ -64,7 +64,39 @@ grid-template-columns: 65% 33%;
     line-height: 1cm;
     padding-left: 8px;
 }
-
+.project{
+    background-color:black;
+}
+.project .upper{
+    padding: 2rem;
+}
+.project .upper .left {
+    text-align: center;
+    display:flex;   
+    justify-content: center;
+    align-items: center;
+    font-size:40px;
+    padding: 2rem;
+    height:400px;
+    width: 500px;
+    background-color: yellow;
+    color: darkblue;
+    margin: 2rem 1rem 1rem 4rem;
+  
+}
+.project .upper .left:hover{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+@keyframes example {
+    from {height:400px;
+        width:500px;
+    }
+    to {height:300px;
+    width:300px;
+font-size:56px;}
+  }
 
 
 @media only screen and (max-width: 600px) {
