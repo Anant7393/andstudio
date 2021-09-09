@@ -112,6 +112,20 @@ grid-template-columns: 65% 33%;
 }
 .project{
     background-color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: nowrap;
+
+    padding:2rem;
+}
+.projec{
+    background-color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: nowrap;
+    padding:2rem;
 }
 .project .upper{
     padding: 2rem;
@@ -130,6 +144,7 @@ grid-template-columns: 65% 33%;
     color: darkblue;
     /* margin: 2rem 1rem 1rem 4rem; */
     padding:2rem;
+    margin: 2rem;
 margin-left: 2.4rem;  
 }
 .project .upper .left:hover{
@@ -152,11 +167,12 @@ font-size:56px;}
     align-items: center;
     font-size:40px;
     padding: 2rem;
-    height:460px;
-    width: 560px;
+    height:440px;
+    width: 540px;
     background-color: yellow;
     color: darkblue;
     margin-left: 1rem;
+    margin: 2rem;
     /* margin: 2rem 3rem 1rem 4rem; */
   
 }
@@ -166,11 +182,80 @@ font-size:56px;}
     animation-iteration-count: 1;
 }
 @keyframes exampl {
-    from {height:460px;
-        width:560px;
+    from {height:440px;
+        width:540px;
     }
-    to {height:400px;
-    width:500px;
+    to {height:360px;
+    width:460px;
+font-size:56px;}
+  }
+
+.projec{
+    background-color:black;
+}
+.projec .down{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 48% 48%;
+}
+.projec .down .left {
+    text-align: center;
+    display:flex;   
+    justify-content: center;
+    align-items: center;
+    font-size:40px;
+     height:440px;
+    width: 540px;
+    background-color: yellow;
+    color: darkblue;
+    margin-top: -2.6rem !important;
+    /* margin: 2rem 1rem 1rem 4rem; */
+    padding:2rem;
+    margin: 2rem;
+margin-left: 2rem;  
+}
+.projec .down .left:hover{
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+@keyframes example2 {
+    from {height:440px;
+        width:540px;
+    }
+    to {height:360px;
+    width:460px;
+font-size:56px;}
+  }
+.projec .down .right {
+    text-align: center;
+    display:flex;   
+    justify-content: center;
+    align-items: center;
+    font-size:40px;
+    padding: 2rem;
+    height:400px;
+    width: 500px;
+    background-color: yellow;
+    color: darkblue;
+    margin-left: 3.2rem !important;
+    
+    margin: 2.4rem;
+    margin-top: -2.6rem;
+    /* margin: 2rem 3rem 1rem 4rem; */
+  
+}
+.projec .down .right:hover{
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+@keyframes example3 {
+    from {height:400px;
+        width:500px;
+    }
+    to {height:350px;
+    width:425px;
 font-size:56px;}
   }
 
