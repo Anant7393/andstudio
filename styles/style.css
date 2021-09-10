@@ -116,7 +116,7 @@ grid-template-columns: 65% 33%;
     justify-content:center;
     align-items:center;
     flex-wrap: nowrap;
-
+width: 100%;
     padding:2rem;
 }
 .projec{
@@ -126,6 +126,7 @@ grid-template-columns: 65% 33%;
     align-items:center;
     flex-wrap: nowrap;
     padding:2rem;
+    width:100%;
 }
 .project .upper{
     padding: 2rem;
@@ -169,8 +170,8 @@ font-size:56px;}
     padding: 2rem;
     height:440px;
     width: 540px;
-    background-color: yellow;
-    color: darkblue;
+    background-color:darkblue;
+    color: white;
     margin-left: 1rem;
     margin: 2rem;
     /* margin: 2rem 3rem 1rem 4rem; */
@@ -206,8 +207,8 @@ font-size:56px;}
     font-size:40px;
      height:440px;
     width: 540px;
-    background-color: yellow;
-    color: darkblue;
+    background-color: darkblue;
+    color: white;
     margin-top: -2.6rem !important;
     /* margin: 2rem 1rem 1rem 4rem; */
     padding:2rem;
@@ -299,4 +300,56 @@ font-size:56px;}
             padding: 2rem;
             line-height:.6cm;
         }
+        .project .upper{
+            display: block;
+        }
+        .projec .down{
+            display: block;
+            margin-top:-3rem;
+        }
+        .projec .down .right,.projec .down .left,.project .upper .right,.project .upper .left{
+            height:400px;
+            width:400px;
+        }
+        @keyframes example2 {
+            from {height:400px;
+                width:400px;
+            }
+            to {height:350px;
+            width:350px;
+        font-size:56px;}
+          }
+        @keyframes example3 {
+            from {height:400px;
+                width:400px;
+            }
+            to {height:350px;
+            width:350px;
+        font-size:56px;}
+          }
+        @keyframes exampl {
+            from {height:400px;
+                width:400px;
+            }
+            to {height:350px;
+            width:350px;
+        font-size:56px;}
+          }
+        @keyframes example {
+            from {height:400px;
+                width:400px;
+            }
+            to {height:350px;
+            width:350px;
+        font-size:56px;}
+          }
+          .projec .down .right{
+              margin-top:2rem;
+          }
+          .projec .down .left{
+              margin-left:3rem;
+          }
+          .project .upper .right{
+              margin-left: 2.4rem;
+          }
 }
