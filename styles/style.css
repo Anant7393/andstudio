@@ -259,6 +259,36 @@ font-size:56px;}
     width:425px;
 font-size:56px;}
   }
+  .design{
+      background-color:#dbdbdb;
+      color:black;
+      height:13.5rem;
+      width:100%;
+
+  }
+  .design p{
+      font-size:22px;
+      padding-left: 4rem;
+      padding-top: 6rem;
+  }
+  .desig{
+    background-color:#dbdbdb;
+    color:#9a9a9a;
+    height:13.5rem;
+    width:100%;
+  }
+  .desig{
+      display:flex;
+      justify-content: space-between;
+    font-size:32px;
+    padding-left: 4rem;
+    padding-top: 6rem;
+    padding-right: 3rem;
+}
+.desig:hover{
+    color:black;
+    background-image: url(../images/bgggg.jpg);
+}
 
 
 @media only screen and (max-width: 600px) {
