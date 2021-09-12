@@ -285,11 +285,59 @@ font-size:56px;}
     padding-top: 6rem;
     padding-right: 3rem;
 }
+
 .desig:hover{
     color:black;
-    background-image: url(../images/bgggg.jpg);
+    background-image: url(../images/gaga.jpg);
 }
+.foot{
+    height:25rem;
+    width:100%;
+    background-color:#d2d2d2;
+    display:flex;
+}
+.foot .logo{
+    color: black;
+    font-size:32px;
+    font-weight:bold;
+    padding:4rem;
+    padding-top:8rem ;
 
+}
+.foot .message{
+    font-size:28px;
+    padding: 3.5rem;
+    padding-top: 9rem;
+   
+    margin-left: 18rem;
+}
+.foot .dash:hover{
+    display: none;
+}
+ .last{
+    height:15rem;
+    width:100%;
+    background-color:#d2d2d2;
+    display:flex;
+
+    padding: 3rem;
+}
+.last ul li .bb{
+    margin-left:1.2rem;
+}
+.last ul{
+    list-style-type: none;
+    margin-left: 20rem;
+}
+.last ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    line-height:0.9cm;
+}
+.last ul li a:hover{
+    text-decoration: underline;
+}
 
 @media only screen and (max-width: 600px) {
     .nav{
