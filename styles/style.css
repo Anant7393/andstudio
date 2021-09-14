@@ -498,4 +498,21 @@ display: none;
           .project .upper .right{
               margin-left: 2.4rem;
           }
+          .animation .animate-text .text-in {
+              font-size:32px;
+              line-height:1.26cm;
+          }
+          .right-animation p{
+              margin-left: -6rem;
+              margin-top:3rem;
+              font-weight: bolder;
+              font-size:46px;
+          }
+          .project-work{
+              display: block;
+          }
+          .project{
+              margin: 2rem;
+              margin-left:-1.rem;
+          }
 }
