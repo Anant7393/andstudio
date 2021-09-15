@@ -5,6 +5,7 @@
 }
 body{
     overflow-x: hidden;
+    background: url(./https://andstudio.lt/wp-content/uploads/2019/11/7s_-web.mp4);
 }
 
 #navbar{
@@ -408,8 +409,14 @@ display: none;
 .foot:hover .hello{
     transform: scaleX(-1rem);
 }
-.right-animation p:hover{
-    background: url(../banner.mp4);
+.right-animation p:hover body{
+    background: url(https://andstudio.lt/wp-content/uploads/2019/11/7s_-web.mp4);
+}
+.so li a{
+    margin-left:2rem ;
+}
+.so1 li a{
+    margin-left:2rem ;
 }
 
 @media only screen and (max-width: 600px) {
@@ -519,5 +526,22 @@ display: none;
           .project{
               margin: 2rem;
               margin-left:-1.rem;
+          }
+          .desig{
+              display: block;
+              font-size:22px;
+              line-height:1.2cm;
+          }
+          .last li a {
+              display: block;
+          }
+          .last{
+              display: block;
+          }
+          .so li{
+              display: block;
+          }
+          .so1 .bb{
+    display: none;
           }
 }
