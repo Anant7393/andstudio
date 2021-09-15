@@ -339,7 +339,9 @@ font-size:56px;}
 
 .desig:hover{
     color:black;
-    background-image: url(../images/gaga.jpg) ;
+    background-image: url(../images/xx.jpg); 
+    background-repeat: no-repeat;
+    background-size: 300px 300px; ;
 }
 .foot{
     height:25rem;
@@ -405,6 +407,9 @@ display: none;
 }
 .foot:hover .hello{
     transform: scaleX(-1rem);
+}
+.right-animation p:hover{
+    background: url(../banner.mp4);
 }
 
 @media only screen and (max-width: 600px) {
