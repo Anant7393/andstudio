@@ -563,4 +563,15 @@ display: none;
           .so1 .bb{
     display: none;
           }
+          .foot .message{
+              margin-left: -16rem;
+              margin-top: 2.5rem;
+          }
+          .so , .so1{
+              margin-left:-14rem;
+              /* margin-top:1rem; */
+          }
+              .so{
+                  margin-top: 1rem;
+              }
         }
