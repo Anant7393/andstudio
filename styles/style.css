@@ -359,9 +359,10 @@ font-size:56px;}
 
 .desig:hover{
     color:black;
-    background-image: url(../images/xx.jpg); 
+    background-image: url(../images/xx.jpg)  ; 
     background-repeat: no-repeat;
-    background-size: 300px 300px; ;
+    background-size: 300px 300px;
+    
 }
 .foot{
     height:25rem;
